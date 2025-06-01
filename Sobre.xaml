@@ -5,7 +5,7 @@
              Title="Sobre o App">
 
     <VerticalStackLayout Padding="20" Spacing="15" VerticalOptions="Center">
-        <Label Text="Desenvolvedor: Seu Nome Aqui" FontSize="20" HorizontalOptions="Center" />
+        <Label Text="Desenvolvedor: Thiago J Souza" FontSize="20" HorizontalOptions="Center" />
         <Label Text="Ano: 2024" FontSize="20" HorizontalOptions="Center" />
         <Label Text="App desenvolvido como atividade prática no curso Técnico em Desenvolvimento de Sistemas." 
                FontSize="16" HorizontalOptions="Center" TextColor="Gray" />
