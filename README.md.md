@@ -25,7 +25,7 @@ Este é um aplicativo desenvolvido com .NET MAUI como parte do curso Técnico em
 
 ## 👨‍💻 Desenvolvedor
 
-Nome do Desenvolvedor: **Seu Nome Aqui**  
+Nome do Desenvolvedor: **Thiago J Souza**  
 Ano de desenvolvimento: **2024**
 
 ## ✅ Objetivo
