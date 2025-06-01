@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppHotel.MainPage"
+             Title="App Hotel">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+            <Image Source="hotel.png"
+                   HeightRequest="150"
+                   Aspect="AspectFill"
+                   HorizontalOptions="Center" />
+
+            <Label Text="Nome do Cliente:" FontSize="18" />
+            <Entry x:Name="nomeCliente" Placeholder="Digite seu nome" />
+
+            <Label Text="Data de Entrada:" FontSize="18" />
+            <DatePicker x:Name="dataEntrada" Format="dd/MM/yyyy" />
+
+            <Label Text="Número de Diárias:" FontSize="18" />
+            <Stepper x:Name="stepperDiarias" Minimum="1" Maximum="30" Value="1" Increment="1"
+                     ValueChanged="OnStepperValueChanged"/>
+            <Label x:Name="labelDiarias" Text="1 diária(s)" FontAttributes="Italic" />
+
+            <Label Text="Tipo de Quarto:" FontSize="18" />
+            <Picker x:Name="pickerTipo" Title="Selecione">
+                <Picker.Items>
+                    <x:String>Simples</x:String>
+                    <x:String>Duplo</x:String>
+                    <x:String>Luxo</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Button Text="Ir para Sobre" Clicked="OnSobreClicked" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
